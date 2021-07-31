@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-div-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bg-black{
+    background-color: black !important;
+}
+/*HEAD-S*/
+.div1{
+    background-image: url('../image/bg1.png');
+
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand{
+    width: 100px;
+}
+.nav-logo{
+    width: 100%;
+    height: auto;
+}
+.heading1{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+}
+.heading2{
+    font-size: 50px;
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Palette Mosaic', cursive;
+}
+.heading3{
+    font-size: 30px;
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 20px;
+}
+.img1{
+    width: 90%;
+    height: auto;
+}
+.nav-link{
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+}
+/*HEAD-E*/
+/*BODY-S*/
+.div2{
+    padding: 20px;
+}
+.img-div1{
+    background-image: url('../image/img2.jpg');
+    background-size: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.img-div2{
+    background-image: url('../image/img3.jpg.png');
+    background-position: center;
+    background-size: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.img-div3{
+    margin-top: 20px;
+    background-image: url('../image/img4.png');
+    background-position: center;
+    background-size: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.heading4{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+.heading5{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+.img-div-padding{
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.heading6{
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffc045;
+    font-family: 'Teko', sans-serif;
+    color: #3d2514;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.heading7{
+    text-align: center;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 20px;
+    color: #3d2514;
+}
+.pera1{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: 'Teko', sans-serif;
+}
+.item-jar{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .3s;
+}
+.item-jar:hover{
+    box-shadow: 5px 7px 17px rgba(44, 44, 44, 1.5);
+}
+
+.order-img{
+    width: 100%;
+}
+.heading8{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    color: #3d2514;
+}
+.pera2{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.order-button{
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #bf2222;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+.order-button:focus{
+    outline: none;
+}
+.slider-jar{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 7px 17px rgba(44, 44, 44, 1.5);
+}
+.heading9{
+    text-align: center;
+    margin-top: 20px;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+}
+.heading10{
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pera3{
+    margin-left: 20px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.carousel-indicators{
+    margin-left: 20%;
+}
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.pc-content{
+    display: none;
+}
+.div3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('../image/img9.png');
+    background-size: 100hh;
+}
+.heading11{
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.heading12{
+    text-align: center;
+    color: #3d2514;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.inputbox{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: 1.5px solid #000;
+    font-family: 'Heebo', sans-serif;
+    background-color: transparent;
+}
+.inputbox:focus{
+    outline: none;
+}
+.reservation-button{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    background-color: #bf2222;
+    color: #fff;
+    border: 1.5px solid #bf2222;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reservation-button:focus{
+    outline: none;
+}
+/*BODY-E*/
+/*FOOTER-S*/
+.div4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-image: url('../image/img10.png');
+}
+.logo-fotter{
+    width: 100%;
+    height: auto;
+}
+.pera4{
+    color: #fff;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.heading13{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+}
+.heading13 i{
+ margin-right: 10px;
+}
+.midea-icon{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.midea-icon ul {
+    display: flex;
+    list-style: none;
+}
+.midea-icon ul li {
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/*FOOTER-E*/
+
+@media only screen and (min-width: 320px){
+
+
+}
+
+@media only screen and (min-width: 360px){
+    .midea-icon{
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and (min-width: 375px){
+
+
+}
+
+@media only screen and (min-width: 411px){
+    .midea-icon{
+        margin-left: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 414px){
+
+
+}
+
+@media only screen and (min-width: 540px){
+    .midea-icon{
+        margin-left: 35%;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .navbar-brand{
+        width: 200px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .heading1{
+        padding-left: 20px;
+        margin-top: 100px;
+        font-size: 20px;
+        text-align: left;
+    }
+    .heading2{
+        padding-left: 20px;
+        font-size: 80px;
+        text-align: left;
+    }
+    .heading3{
+        padding-left: 20px;
+        font-size: 50px;
+        text-align: left;
+    }
+    .img-div-padding{
+        padding-top: 0px;
+        padding-left: 20px !important;
+    }
+    .img-div2{
+        height: 90px;
+    }
+    .img-div3{
+        height: 90px;
+    }
+    .pc-content{
+        display: block;
+    }
+    .slider-jar{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .heading9{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .heading10{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .pera3{
+        font-size: 15px;
+    }
+    .carousel-indicators{
+        margin-left: 70%;
+    }
+    .midea-icon{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .heading1{
+        padding-left: 20px;
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    .heading2{
+        padding-left: 20px;
+        font-size: 140px;
+        text-align: left;
+    }
+    .heading3{
+        padding-left: 20px;
+        font-size: 100px;
+        text-align: left;
+    }
+    .midea-icon{
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .heading1{
+        padding-left: 20px;
+        margin-top: 200px;
+        font-size: 30px;
+    }
+    .heading2{
+        padding-left: 20px;
+        font-size: 180px;
+        text-align: left;
+    }
+    .heading3{
+        padding-left: 20px;
+        font-size: 100px;
+        text-align: left;
+    }
+    .img-div1{
+        height: 400px;
+    }
+    .img-div2{
+        height: 200px;
+    }
+    .img-div3{
+        height: 180px;
+    }
+    .heading7{
+        font-size: 50px;
+    }
+    .pera1{
+        font-size: 25px;
+    }
+    .heading10{
+        font-size: 50px;
+    }
+    .pera3{
+        font-size: 20px;
+    }
+    .div3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-size: 100%;
+    }
+    .div4{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .heading13{
+        text-align: left;
+    }
+    .pera4{
+        text-align: left;
+    }
+    .midea-icon{
+        margin-left: 45%;
+        margin-top: 160px;
+    }
+}
