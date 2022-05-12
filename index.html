@@ -10,8 +10,8 @@
     <!--fav_iconcountry-->
     <link rel="shortcut icon" type="image/png" href="asset/image/favicon.png">
 
-    <!--Bootstrap_CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Bootstrap_CSS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--Google_fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,116 +21,129 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Teko&display=swap" rel="stylesheet">
 
+    <!--animate_CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!--My_CSS-->
+    <link rel="stylesheet" href="asset/scss/main.css">
     <link rel="stylesheet" href="asset/css/style.css">
+
 
 </head>
 <body>
     <!--head-start-->
-    <div class="conatainer-fluid  div1">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img class="nav-logo" src="asset/image/Logo.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Our Story</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </div>
-        </nav>
+        <div class="section-navbar">
+            <a href="#" class="logo">Burger House</a>
+            <i class="menu-toggle-btn fas fa-bars"></i>
 
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <h1 class="heading1">IT IS A GOOD TIME FOR THE GREATE TASTE OF BURGERS</h1>
-                <h1 class="heading2">BURGER</h1>
-                <h1 class="heading3">WEEK</h1>
-            </div>
-            <div class="col-12 col-md-6">
-                <img class="img1" src="asset/image/img1.png" alt="">
+            <div class="nav-menu">
+                <a href="#Home" class="link1">Home</a>
+                <a href="#Chosse" class="link2">Menu</a>
+                <a href="#Slider" class="link3">Our Story</a>
+                <a href="#Reserve" class="link4">Contact Us</a>
             </div>
         </div>
-    </div>
     <!--head-end-->
 
     <!--body-start-->
-        <div class="conatiner div2">
-            <div class="row">
-                <div class="col-12 col-md-6 img-div1">
-                    <h1 class="heading4">TRY TODAY</h1>
-                    <h1 class="heading5">MOST POPULAR BURGER</h1>
-                </div>
-                <div class="col-12 col-md-6 img-div-padding">
-                    <div class="col-12 img-div2">
-                        <h1 class="heading4">TRY TODAY</h1>
-                        <h1 class="heading5">MOST POPULAR BURGER</h1>
-                    </div>
-                    <div class="col-12 img-div3">
-                        <h1 class="heading4">TRY TODAY</h1>
-                        <h1 class="heading5">MOST POPULAR BURGER</h1>
-                    </div>
+    <div id="Home" class="container-fluid section-home">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="pera">
+                    IT IS A GOOD TIME FOR THE GREATE TASTE OF BURGERS
+                </p>
+                <h1 class="heading1">
+                    BURGER
+                </h1>
+                <h1 class="heading2">
+                    WEEK
+                </h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="img-box">
+                    <img src="asset/image/img1.png" alt="">
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="section-popular">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-8 offset-2 col-md-4 offset-md-4 col-lg-2 offset-lg-5">
-                    <h1 class="heading6">ALWAYS TASTY BURGER</h1>
+                <div class="col-12 col-md-6">
+                    <div class="jar1 opacity0">
+                        <p class="pera1">TRY TODAY</p>
+                        <p class="pera2">MOST POPULAR BURGER</p>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <h1 class="heading7">CHOOSE & ENJOY</h1>
-                    <p class="pera1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ratione iusto quibusdam harum</p>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="jar2 opacity0">
+                                <p class="pera1">TRY TODAY</p>
+                                <p class="pera2">MOST POPULAR BURGER</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="jar3 opacity0">
+                                <p class="pera1">TRY TODAY</p>
+                                <p class="pera2">MOST POPULAR BURGER</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-12 col-md-4">
-                  <div class="item-jar">
-                      <img class="order-img" src="asset/image/img7.png" alt="">
-                      <h1 class="heading8">BURGER</h1>
-                      <p class="pera2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                      <a href="">
-                          <button class="order-button">ORDER NOW</button>
-                      </a>
-                  </div>  
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="item-jar">
-                        <img class="order-img" src="asset/image/img7.png" alt="">
-                        <h1 class="heading8">BURGER</h1>
-                        <p class="pera2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                        <a href="">
-                            <button class="order-button">ORDER NOW</button>
-                        </a>
-                    </div>  
-                  </div>
-
-                  <div class="col-12 col-md-4">
-                    <div class="item-jar">
-                        <img class="order-img" src="asset/image/img7.png" alt="">
-                        <h1 class="heading8">BURGER</h1>
-                        <p class="pera2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                        <a href="">
-                            <button class="order-button">ORDER NOW</button>
-                        </a>
-                    </div>  
-                  </div>
             </div>
         </div>
+    </div>
 
-        <div class="conatiner-fluid">
+    <div id="Chosse" class="section-chosse">
+        <p class="pera1">
+            ALWAYS TASTY BURGER
+        </p>
+        <h1 class="heading1">
+            CHOOSE & ENJOY
+        </h1>
+        <p class="pera2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ratione iusto quibusdam harum
+        </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="item-jar burger1" onc>
+                        <img class="order-img" src="asset/image/img7.png" alt="">
+                        <h1 class="heading2">BURGER</h1>
+                        <p class="pera3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="">
+                            <button class="order-button">ORDER NOW</button>
+                        </a>
+                    </div>  
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="item-jar burger2">
+                        <img class="order-img" src="asset/image/img7.png" alt="">
+                        <h1 class="heading2">BURGER</h1>
+                        <p class="pera3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="">
+                            <button class="order-button">ORDER NOW</button>
+                        </a>
+                    </div>  
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="item-jar burger3">
+                        <img class="order-img" src="asset/image/img7.png" alt="">
+                        <h1 class="heading2">BURGER</h1>
+                        <p class="pera3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <a href="">
+                            <button class="order-button">ORDER NOW</button>
+                        </a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Slider" class="section-slider">
+        <div class="container-fluid">
             <div class="row">
                 <div class="slider-jar">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -143,9 +156,9 @@
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-12 col-md-6">
-                                        <h1 class="heading9">DISCOVER</h1>
-                                        <h1 class="heading10">UPCOMING EVENTS</h1>
-                                        <p class="pera3 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
+                                        <h1 class="heading1">DISCOVER</h1>
+                                        <h1 class="heading2">UPCOMING EVENTS</h1>
+                                        <p class="pera1 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
                                     </div>
                                     <div class="col-12 col-md-6">
                                     <img class="d-block w-100" src="asset/image/img8.png" alt="First slide">
@@ -155,9 +168,9 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-12 col-md-6">
-                                        <h1 class="heading9">DISCOVER</h1>
-                                        <h1 class="heading10">UPCOMING EVENTS</h1>
-                                        <p class="pera3 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
+                                        <h1 class="heading1">DISCOVER</h1>
+                                        <h1 class="heading2">UPCOMING EVENTS</h1>
+                                        <p class="pera1 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
                                     </div>
                                     <div class="col-12 col-md-6">
                                     <img class="d-block w-100" src="asset/image/img8.png" alt="First slide">
@@ -167,9 +180,9 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-12 col-md-6">
-                                        <h1 class="heading9">DISCOVER</h1>
-                                        <h1 class="heading10">UPCOMING EVENTS</h1>
-                                        <p class="pera3 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
+                                        <h1 class="heading1">DISCOVER</h1>
+                                        <h1 class="heading2">UPCOMING EVENTS</h1>
+                                        <p class="pera1 pc-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam autem vero hic commodi sed laudantium iusto, maiores animi distinctio! Eius expedita placeat provident animi mollitia? Dolorum porro incidunt animi nemo.</p>
                                     </div>
                                     <div class="col-12 col-md-6">
                                     <img class="d-block w-100" src="asset/image/img8.png" alt="First slide">
@@ -181,12 +194,14 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="conatiner-fluid div3">
+    <div id="Reserve" class="section-reserve">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="heading11">RESERVATION</h1>
-                    <h1 class="heading12">BOOK YOUR TABLE</h1>
+                    <h1 class="heading1">RESERVATION</h1>
+                    <h1 class="heading2">BOOK YOUR TABLE</h1>
                 </div>
 
                 <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3">
@@ -202,37 +217,42 @@
                 </div>
             </div>
         </div>
+    </div>
     <!--body-end-->
     
     <!--footer-start-->
-        <div class="container-fluid div4">
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-3 col-lg-6 offset-lg-0">
-                    <img class="logo-fotter" src="asset/image/Logofooter.png" alt="">
-                    <p class="pera4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni obcaecati amet libero provident quas expedita quisquam autem nobis voluptatibus. Doloribus accusantium praesentium beatae debitis alias accusamus obcaecati tenetur nam perspiciatis?</p>
-                </div>
-                <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-2">
-                    <h1 class="heading13"><i class="fas fa-map-marker-alt"></i>MAIN ROAD, BUILDING NAME</h1>
-                    <h1 class="heading13"><i class="fas fa-envelope"></i>zazbah88@gmail.com</h1>
-                    <h1 class="heading13"><i class="fas fa-copyright"></i>ZAZBAH 2021. all rights reseved.</h1>
-                    <div class="midea-icon">
-                        <ul>
-                            <li><i class="fab fa-instagram"></i></li>
-                            <li><i class="fab fa-facebook-f"></i></li>
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-whatsapp"></i></li>
-                        </ul>
+    <div class="section-footer">
+        <div class="container-fluid">
+            <div class="jar">
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-3 col-lg-6 offset-lg-0">
+                        <img class="logo-fotter" src="asset/image/Logofooter.png" alt="">
+                        <p class="pera1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni obcaecati amet libero provident quas expedita quisquam autem nobis voluptatibus. Doloribus accusantium praesentium beatae debitis alias accusamus obcaecati tenetur nam perspiciatis?</p>
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-2">
+                        <h1 class="heading1"><i class="fas fa-map-marker-alt"></i>MAIN ROAD, BUILDING NAME</h1>
+                        <h1 class="heading1"><i class="fas fa-envelope"></i>zazbah88@gmail.com</h1>
+                        <h1 class="heading1"><i class="fas fa-copyright"></i>ZAZBAH 2021. all rights reseved.</h1>
+                        <div class="midea-icon">
+                            <ul>
+                                <li><i class="fab fa-instagram"></i></li>
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-whatsapp"></i></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <!--footer-end-->
 
 
-    <!--Bootstrap_JS-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <!--Bootstrap_JS-->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!--Fontawsome-->
     <script src="https://kit.fontawesome.com/e6c688e1c2.js" crossorigin="anonymous"></script>
@@ -240,7 +260,12 @@
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     
+    <!--Scrool-js-->
+    <script src="asset/js/jquery.waypoints.min.js"></script>
+    <script src="asset/js/scrool.js"></script>
+
     <!--My_JavaScript-->
-    <script src="asset/js/javascript.js"></script>
+    <script src="asset/js/nav.js"></script>
+    <script src="asset/js/style.js"></script>
 </body>
 </html>
